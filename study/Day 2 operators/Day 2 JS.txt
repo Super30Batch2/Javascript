@@ -1,0 +1,78 @@
+1. JS comments:
+	Comments are going to give hint or more info to developer.
+	single line comment
+	multi line comments.
+
+2. Variables:
+	It can store the data.
+	It is used to exchange the data.
+	there are two type of variables in JS 
+	Local variables and Global variable.
+	Local variables: It allows to use in some specific block of code.
+	Global variables: It allows to use thought the program.
+	In JS we can create variables with the help of let, var, const, or direct variable name.
+	
+	Set of Rules to create JS variables:
+	1. Keywords can not be used as variables.
+	2. can not start with number.
+	3. can start with '_';
+	4. Variables are case sensitive.
+	
+* IF we are using '+' with number then it will perform addition. and if '+' is used with the string then it will concatenate the string.
+	
+3. Operators:
+	Used to performs operations on operands or variables or values.
+	
+	1. Arithmetic
+	2. Comparison
+	3. Logical
+	4. Assignment
+	5. Conditional
+	6. Bitwise.
+	
+	
+	1. Arithmetic Operators:
+		Addition
+		Subtraction
+		multiplication
+		Division
+		Modulus
+		Increment
+		Decrement
+		
+	
+	2. Comparison:
+		Equal to 
+		not equal to 
+		double equal to 
+		triple equal to 
+		less than
+		greater than 
+		less than or equal to 
+		greater than or equal to.
+		
+		* in == only value will be compared and in === value as well as data type of that operands will be compared.	
+		
+	3. Logical :
+		Logical and AND
+		logical OR
+		logical XOR
+		logical NOT
+	
+	4. Assignment:
+		simple assignment ==> =
+		add and assignment ==> +=
+		sub and assignment ==> -=
+		multiply and assignment ==> *=
+		divide and assignment ==>/=
+		modulus and assignment ==> %=
+		
+	5. Bitwise :
+		Bitwise AND
+		Bitwise OR
+		Bitwise XOR
+		
+	6. Misc:
+		TypeOf
+		valueOf
+		Ternary operator
