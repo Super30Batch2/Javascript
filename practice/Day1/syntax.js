@@ -19,13 +19,18 @@ console.log(a);
 console.log(typeof(a));
 
 // 6) object
-const obj = {
+let obj = {
     name : 'rk',
     isValid : true
 }
+console.log(obj);
+
 
 // 7)
 const arr = [2,4,4,5];
+console.log(arr);
 
 
 
+== check value
+=== check value and datatype 
