@@ -23,3 +23,4 @@ console.log('Triple :', data === data2);
 console.log('Greater than :', data <= data2);
 
 
+
