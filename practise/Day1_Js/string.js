@@ -1,4 +1,6 @@
-// var day = "A day in Pune while feeling confused about my career.";
+
+//////////////////////////// day 2 JS /////////////////////////////////////////
+var day = "A day in Pune while feeling confused about my career.";
 
 // console.log(day)
 // 1.typeof
@@ -69,14 +71,17 @@ const s = 12;
 
 const function1 = function(){
     //1st variable declaration
+
     var firstName = 'Shantanu';
     if(firstName){
         //2nd variable is declaration
+
        var lastName ='Patil';
         console.log("firstName is",firstName)
     }
 
-    //accessibel outside the blocks 
+    //second accessibel outside the blocks 
+
     console.log("lastName",lastName)
 }
 
@@ -86,19 +91,23 @@ function1()
 ////////////////////////block scope /////////////////////
 
 //In the case of let and const it can be accessible within the block only so they are block scoped 
-const function2 = function(){
-    //1st variable declaration
-    let firstName = 'Shantanu';
-    if(firstName){
-        //2nd variable is declaration
-       let lastName ='Patil';
-        console.log("firstName is",firstName)
-        firstName="sandip"
-        console.log("firstName",firstName)
-    }
+// const function2 = function(){
+//     //1st variable declaration
+//     let firstName = 'Shantanu';
+//     if(firstName){
+//         //2nd variable is declaration
+//        let lastName ='Patil';
+//         console.log("firstName is",firstName)
+//         firstName="sandip"
+//        // console.log("firstName",firstName)
+//     }
 
-     //accessibel outside the blocks 
-    console.log("lastName",lastName)
-}
+//      //accessibel outside the blocks 
+//     console.log("lastName",lastName)
+// }
 
-function2()
+// function2()
+
+
+
+//////////////////////////////////////////// day 2 JS //////////////////////////////////////////////////////
