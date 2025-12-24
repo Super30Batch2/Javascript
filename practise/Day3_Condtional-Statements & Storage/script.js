@@ -550,6 +550,28 @@ while (passsword.length < 6) {
 
 //
 
-let input = prompt("Hello can you please");
+// let input = prompt("Hello can you please");
 
-console.log(input);
+// console.log(input);
+
+//storage
+
+// Set a cookie
+document.cookie =
+  "userName=Ashitosh; expires=Fri, 31 Dec 2025 12:00:00 UTC; path=/";
+
+// Get cookies
+console.log(document.cookie);
+
+//session
+sessionStorage.setItem("user", "Ashitosh");
+console.log(sessionStorage.getItem("user"));
+
+// Remove
+// sessionStorage.removeItem("user");
+
+localStorage.setItem("theme", "dark");
+console.log(localStorage.getItem("theme"));
+
+// Remove
+// localStorage.removeItem("theme");
