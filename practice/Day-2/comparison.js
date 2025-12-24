@@ -11,3 +11,17 @@ console.log('Greater than :', test <= test5);  //greater then  //true
 console.log('less than :', test < test5);  //less then   //true
 
 
+///////
+let marks = "35";
+
+//if (marks > 35)
+//if(marks <= 35 )
+//if(marks >= 35 )
+if(marks == 35 )
+    //if(marks === 35 )
+    
+    {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}

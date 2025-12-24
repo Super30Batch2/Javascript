@@ -74,3 +74,17 @@ if(test3 || test2) {
 }
 
 //Sorry your not eligible
+
+//////
+
+let email = true;
+let password = false;
+
+//if (email && password) 
+    if (!email && password) 
+
+{
+  console.log("Login successful");
+} else {
+  console.log("Login failed");
+}

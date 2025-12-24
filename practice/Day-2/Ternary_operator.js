@@ -2,7 +2,7 @@
 
 let age=21;
 let name="suraj";
-console.log(typeof(age),typeof(name));
+console.log(typeof (age),typeof(name));
 
 //valueof
 //
@@ -40,3 +40,5 @@ let user_age1=16;
 let result22=(user_age1>=18)?"User can vote":"User cannot vote";
 console.log(result22);
 //user cannot vote
+
+

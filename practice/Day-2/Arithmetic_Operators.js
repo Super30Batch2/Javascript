@@ -142,3 +142,6 @@ console.log(dt1);
 
 console.log(dt1--);
 console.log(dt1);
+
+let a=12;
+let b=13;
