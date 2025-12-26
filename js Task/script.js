@@ -25,7 +25,7 @@
 // }
 
 // for (let num = 1; num <= 100; num++) {
-//   if (num % 3 === 0 && num % 5 === 0) {
+//   if (num % 15 === 0) {
 //     console.log(`num ${num} is buzz and freeze`);
 //   } else if (num % 3 === 0) {
 //     console.log(`num ${num} is buzz`);
