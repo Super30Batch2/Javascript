@@ -67,5 +67,5 @@ console.log(test10);
 var test11 = test1.toLocaleUpperCase();
 console.log(test11);
 
-var test12 = test1.substr(3,9).toLowerCase();
+var test12 = test1.substring(3,9).toLowerCase();
 console.log(test12);
