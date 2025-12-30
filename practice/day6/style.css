@@ -1,0 +1,23 @@
+
+body{
+    align-items: center;
+    align-content: center;
+}
+section{
+    padding-top:60px ;
+    justify-items: center;
+    
+}
+form{
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    border: 1px black solid;
+}
+tr td {
+    border: 2px solid black;
+    height: 30px;
+    width: 120px;
+}
