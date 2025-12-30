@@ -14,8 +14,8 @@ console.log(test1.valueOf());
 console.log(test2.valueOf());
 
 // 3.charAt
-var test2 = test1.charAt(4);
-console.log(test2);
+var test22 = test1.charAt(2);
+console.log(test22);
 
 var test3 = test2.charAt(4);
 console.log(test3);
