@@ -1,11 +1,11 @@
 var samplarray = ['Nitin', 'aniket','rohan','vishal','mayur','akshata'];
 console.log(samplarray);
 const arr100 = [1,5,3,6,4,8];
-const arr = [
-    {id:1, username:'xyz'},
-    {id:2, username:'abc'},
-    {id:3, username:'rsp'}
- ];
+// const arr = [
+//     {id:1, username:'xyz'},
+//     {id:2, username:'abc'},
+//     {id:3, username:'rsp'}
+//  ];
 
  console.log(samplarray[0]);
  console.log(typeof(samplarray[0]));
