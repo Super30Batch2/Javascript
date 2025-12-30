@@ -1,4 +1,4 @@
-// what is hoisting?
+// what is hoisting?:-
 console.log("Hoisting:",value);
 var value = 10;
 
