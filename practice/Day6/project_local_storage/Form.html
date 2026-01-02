@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LocalStorage CRUD</title>
+    <link rel="stylesheet" href="/Day6/project_local_storage/asset/style/style.css">
+</head>
+<body>
+
+<h2>User Form</h2>
+
+<div class="form-container">
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="text" id="phone" placeholder="Phone Number">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="saveData()">Save</button>
+</div>
+
+<h2>User Data</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+        <!-- Data will come here -->
+    </tbody>
+</table>
+
+<script src="Form.js"></script>
+</body>
+</html>
