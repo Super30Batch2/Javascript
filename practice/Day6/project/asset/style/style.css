@@ -1,0 +1,42 @@
+ .form-container{
+            
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+       #myform{
+        border: 2px solid blanchedalmond;
+        margin: auto;
+        flex:auto;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        background-color: rgb(60, 65 , 100, 90);
+        border-radius: 4px;
+        color: white;
+        border-radius: 7px;
+        cursor: pointer;
+       }
+        /* form [type="text"],
+        form [type="date"],
+        form [type="textarea"]
+        {
+            width: 95%;
+            text-align: justify;
+            border-radius: 5px;
+            padding: 5px;
+        
+        } */
+       .btn{
+       margin-left:auto;
+       width: 100%;
+       padding: 10px;
+       background-color: #28a745;
+       border: 2px;
+       border-radius: 5px;
+       color:white;
+       font-size: 16px;
+       cursor: pointer;
+       }

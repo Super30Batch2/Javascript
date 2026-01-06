@@ -1,41 +1,43 @@
-var str = "India is my country";
+var str = ("I am data analyst and data science enthusiast");
 
-// charAt.
+console.log(str);
+
+//charAt : 
 const char = str.charAt(4);
 console.log(char);
 
-// concatination
-const a = str +' '+ 'I love it';
+//concatenation : 
+const a = str +' '+'Shivraj';
 console.log(a);
 
-// indexof
-const inx = str.indexOf("my12");
+//indexof : 
+const inx = str.indexOf("mh53");
 console.log(inx);
 
-// replace
+//replace : 
 const rep = str.replace('my','our');
 console.log(rep);
 
-// search
+//search : 
 const search = str.search("country10");
 console.log(search);
 
-// slice (starting index, end index-1)
+// slice (starting index, end index -1) : 
 const slice = str.slice(4,8);
 console.log(slice);
 
-// split
+// split :
 const split = str.split('');
 console.log(split);
 
-// substring
+// substring : 
 const sub = str.substring(3,7);
 console.log(sub);
 
-// UpperCase
+// UpperCase :
 const upper = str.toUpperCase();
 console.log(upper);
 
-// LOwerCase
+// LowerCase :
 const lower = str.toLowerCase();
 console.log(lower);
