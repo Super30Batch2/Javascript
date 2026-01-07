@@ -111,11 +111,18 @@ var test18 =arr2.find(item=>item.id === 45 );
 //undefind return if not match
 
 // 15.reduce
-const user = { name: "Anjali", address: { city: "Delhi" } };
-const newUser = { ...user };
-newUser.address.city = "Mumbai";
-console.log(user.address.city, newUser.address.city);
+// const user = { name: "Anjali", address: { city: "Delhi" } };
+// const newUser = { ...user };
+// newUser.address.city = "Mumbai";
+// console.log(user.address.city, newUser.address.city);
 
-const arr4 = [1, 2, 3];
-const result = arr4.filter(num => num * 2);
-console.log(result);
+// const arr4 = [1, 2, 3];
+// const result = arr4.filter(num => num * 2);
+// console.log(result);
+
+const arr5 = [1,2,3,4,5];
+const arr6 = arr5.reduce((acc,ele)=>{
+return acc+=ele},0)
+
+console.log(arr6)
+//
